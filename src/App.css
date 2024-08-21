@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+/* Form Css */
+.myForm {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+    margin: 2px;
+    max-width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(49, 10, 0);
+    text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.myFormInputs{
+    flex-direction: row;
+    width: fit-content;
+    padding: 2px;
+    margin: 10px;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.myLabels{
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    margin: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+label{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2px;
+    padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submitForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2px;
+    padding: 5px;
+}
+
+.myFormInputs:hover{
+    background-color:rgb(124, 189, 127);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:bisque;
+}
+
+
+.textLazy{
+    border-style: double;
+    padding: 2px;
+    background-color:antiquewhite
+}
+
+
+
+/* Table Css */
+table{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(49, 10, 0);
+    width: 100%;
+}
+
+.myTable {
+    background-color: rgb(255, 250, 232);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+tr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin: 2px;
+    border-style: double;
+    border-color: rgb(138, 57, 32);
+    width:100%;
+}
+
+th{
+    background-color: rgb(247, 217, 198);
+    padding: 5px;
+    margin: 2px;
+    border-style: double;
+    border-radius: 2px;
+    border-color: rgb(138, 57, 32);
+}
+
+td{
+    padding: 5px;
+    border-right: double;
+    margin: 1px;
+    text-align: center;
+
+}
+
+input{
+    width: 100%;
+}
+
+button{
+    align-items: center;
+}
+
+#td1{
+width:10%;
+}
+
+#td2{
+    width:40%;
+}
+
+#td3{
+    width:15%;
+}
+
+#td4{
+    width:20%;
+}
+
+#td5{
+    width:15%;
+    border-right-style: none;
+}
+
+#deleteButton{
+    font-size: 11px;
+}
+
+#changeButton{
+    font-size:11px;
 }
